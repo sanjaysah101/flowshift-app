@@ -2,13 +2,9 @@
 
 **Submission for [Hack for Mental 2025](https://hackformental.com/2025) — 🌀 Harmonic Disruption: Break the Cycle, Reclaim Attention**
 
----
-
 ## 🌟 Overview
 
 **FlowShift** is a mindful digital companion designed to gently disrupt negative digital habits and reclaim user attention — not by blocking, but by introducing meaningful, well-timed interventions. Built as a mobile app, FlowShift fits naturally into daily routines, nudging users toward awareness, balance, and reflection without being intrusive.
-
----
 
 ## 🎯 Mission Alignment
 
@@ -16,8 +12,6 @@
 - **Minimal, smart friction:** Encourages micro-pauses and mindful breaks, not hard stops.
 - **Works within existing flows:** Seamlessly overlays on daily device use, not around it.
 - **Encourages self-regulation:** Empowers users to reflect and adjust, rather than restrict.
-
----
 
 ## 🛠 Features
 
@@ -34,8 +28,6 @@
 - **Privacy-First:**  
   All data stays on-device unless you opt in.
 
----
-
 ## 🧠 Behavioral Science Grounding
 
 FlowShift leverages behavioral science principles:
@@ -45,8 +37,6 @@ FlowShift leverages behavioral science principles:
 - **Minimal UX:** Clean, distraction-free interface to reduce cognitive load.
 - **Feedback Loops:** Built-in guest mode and feedback prompts for rapid iteration.
 
----
-
 ## 💻 Tech Stack
 
 - **React Native** (Expo) for cross-platform mobile development
@@ -55,22 +45,18 @@ FlowShift leverages behavioral science principles:
 - **Reanimated & Expo Blur** for smooth, modern UI/UX
 - **Custom Auth Context** for guest and user flows
 
----
-
 ## 🔐 Privacy-First Architecture
 
 - No intrusive tracking; all data stays on-device unless user opts in.
 - No manipulative patterns; all interventions are transparent and user-controllable.
 - Open-source and auditable codebase.
 
----
-
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/flowshift.git
+   git clone https://github.com/sanjaysah101/flowshift-app.git
    cd flowshift
    ```
 
@@ -112,11 +98,6 @@ Category: Mobile App (Attention Logic, Behavioral Science, Minimal UX)
 
 ## 📄 License
 
-MIT License
-
-## 🙏 Acknowledgements
-
-[Hack for Mental 2025](https://hackformental.com/2025) for the challenge and inspiration
-Open-source libraries and the React Native community
+[MIT License](LICENSE)
 
 **FlowShift** — Break the cycle, reclaim your attention.
