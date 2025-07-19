@@ -1,0 +1,39 @@
+name: 📦 Dependency Maintenance
+description: Track and manage ongoing updates to project dependencies
+title: '📦 Dependency Maintenance Master Issue'
+labels: [dependencies, maintenance, chore]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📦 Dependency Maintenance Master Issue
+
+        This issue tracks the ongoing effort to keep all project dependencies up-to-date, secure, and compatible.
+
+        Please open separate issues or pull requests for individual upgrades and link them here. This will help us coordinate and review version bumps, especially major ones.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 📌 Upgrade Checklist
+      description: Track progress of known or planned dependency updates
+      options:
+        - label: Zod: v3 → v4
+        - label: Prisma: upgrade to latest stable
+        - label: ESLint / Prettier rules update
+        - label: TypeScript upgrade
+        - label: Next.js / React version bump
+        - label: Update dev tools (ts-node, nodemon, etc.)
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 🧰 Notes / Changelog References
+      description: Add any important context or changelog links here
+      placeholder: |
+        - Use `pnpm outdated` or `npm audit` weekly
+        - Link to upgrade guides or breaking change docs here
+    validations:
+      required: false
