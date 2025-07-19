@@ -19,13 +19,6 @@ body:
     attributes:
       label: 📌 Upgrade Checklist
       description: Track progress of known or planned dependency updates
-      options:
-        - label: Zod: v3 → v4
-        - label: Prisma: upgrade to latest stable
-        - label: ESLint / Prettier rules update
-        - label: TypeScript upgrade
-        - label: Next.js / React version bump
-        - label: Update dev tools (ts-node, nodemon, etc.)
 
   - type: textarea
     id: notes
