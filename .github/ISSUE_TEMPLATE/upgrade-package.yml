@@ -1,0 +1,68 @@
+name: ⬆️ Package Upgrade
+description: Track an individual dependency update
+title: '⬆️ Upgrade: [package-name] from vX → vY'
+labels: [dependencies, maintenance, chore]
+assignees: []
+
+body:
+  - type: input
+    id: package
+    attributes:
+      label: 📦 Package Name
+      placeholder: e.g., zod
+    validations:
+      required: true
+
+  - type: input
+    id: fromVersion
+    attributes:
+      label: 🔢 Current Version
+      placeholder: e.g., 3.22.2
+    validations:
+      required: true
+
+  - type: input
+    id: toVersion
+    attributes:
+      label: 🚀 Target Version
+      placeholder: e.g., 4.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: changelog
+    attributes:
+      label: 📖 Changelog / Migration Notes
+      description: Include links to release notes or breaking changes.
+      placeholder: |
+        - [Zod v4 Migration Guide](https://github.com/colinhacks/zod/releases/tag/v4.0.0)
+        - Refactor enum discriminators
+        - Update schemas and affected API validation
+    validations:
+      required: false
+
+  - type: dropdown
+    id: affects
+    attributes:
+      label: 🧩 Affected Parts of Codebase
+      multiple: true
+      options:
+        - Backend
+        - Frontend
+        - Shared packages
+        - Tests
+        - CI/CD
+        - Documentation
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: ✅ Subtasks
+      description: Break the upgrade into smaller tasks
+      placeholder: |
+        - [ ] Update package.json
+        - [ ] Refactor affected code
+        - [ ] Run tests and linters
+        - [ ] Deploy preview or test build
+    validations:
+      required: false
