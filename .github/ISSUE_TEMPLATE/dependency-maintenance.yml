@@ -14,13 +14,6 @@ body:
 
         Please open separate issues or pull requests for individual upgrades and link them here. This will help us coordinate and review version bumps, especially major ones.
 
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: 📌 Upgrade Checklist
-      description: Track progress of known or planned dependency updates
-      options: 
-        - test
 
   - type: textarea
     id: notes
