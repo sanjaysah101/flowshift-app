@@ -19,6 +19,8 @@ body:
     attributes:
       label: 📌 Upgrade Checklist
       description: Track progress of known or planned dependency updates
+      options: 
+        - test
 
   - type: textarea
     id: notes
