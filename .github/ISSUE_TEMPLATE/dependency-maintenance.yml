@@ -1,5 +1,5 @@
 name: 📦 Dependency Maintenance
-description: Track and manage ongoing updates to project dependencies
+description: "Track and manage ongoing updates to project dependencies"
 title: '📦 Dependency Maintenance Master Issue'
 labels: [dependencies, maintenance, chore]
 assignees: []
